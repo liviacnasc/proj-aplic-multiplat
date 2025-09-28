@@ -63,7 +63,7 @@ Banco de Dados
 
 ## Diagrama de Arquitetura
 
-![Diagrama](https://github.com/liviacnasc/bairrofor_api/blob/main/docs/assets/arquitetura.jpg?raw=true)
+![Diagrama](https://github.com/liviacnasc/proj-aplic-multiplat/blob/main/docs/architecture/arquitetura_diagrama.jpg?raw=true)
 
 
 ## Decisões técnicas e justificativas
