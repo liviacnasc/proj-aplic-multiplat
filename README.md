@@ -5,6 +5,7 @@
 4. Visão geral da arquitetura
 5. Tecnologias propostas
 6. Integrantes da equipe e seus papéis
+7. Cronograma para a próxima etapa
 
 ## Problema abordado e Justificativa
 
@@ -81,3 +82,38 @@ Ana Lívia  | Desenvolvedora    |
 Fernando Henrique | Documentação |
 Jesus Nathan | Documentação |
 Rebeca Samia | Design Web e Mobile |
+
+### Cronograma
+
+#### Etapa 1
+**Agosto/2025**
+
+- Definição do escopo do projeto
+- Requisitos funcionais e não funcionais
+- Desenvolvimento inicial da API (rotas principais criadas)
+- Design da interface
+
+**Setembro/2025**
+
+- Criação de controllers e serviços da API
+- Estrutura de migrations e seeds do banco (com Node + PostgreSQL)
+- Tratamento de erros
+- Principais testes de integração e unitários com Jest
+- Documentação de instalação local e setup de ambiente
+
+#### Etapa 2
+
+**Outubro/2025**
+- Finalizar testes de integração e unitários
+- Refinar o design da interface (wireframes finais ou protótipo navegável)
+- Desenvolvimento do frontend
+- Integração frontend e backend (primeiras telas consumindo a API)
+- Atualizar documentação da API (Swagger/OpenAPI)
+
+**Novembro/2025**
+
+- Implementar painel de visualização de dados (gráficos, mapas, indicadores)
+- Testes de usabilidade com usuários
+- Revisão e ajustes finais na API e no frontend
+- Documentação final consolidada
+- Versão estável da aplicação pronta para entrega/apresentação
