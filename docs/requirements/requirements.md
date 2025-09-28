@@ -16,7 +16,7 @@ RF 03: O sistema deve apresentar indicadores como: mobilidade; infraestrutura; c
 
 RF 04:  O sistema deve exibir uma página com a metodologia usada para calcular os scores (transparência dos dados). (IMPORTANTE)
 
-RF 05 - O sistema deve consumir dados de APIs públicas ou datasets estáticos pré-processados.
+RF 05 - O sistema deve consumir dados de APIs públicas ou datasets estáticos pré-processados. (IMPORTANTE)
 
 ### Requisitos não funcionais
 
@@ -29,7 +29,7 @@ RNF 03: O sistema não deve expor dados sensíveis, apenas informações públic
 1. A comparação será feita sempre entre dois bairros por vez.
 2. Se algum dado não estiver disponível para determinado bairro, o sistema deve indicar “informação indisponível” sem comprometer a comparação.
 3. O sistema exibirá sempre a **fonte dos dados** para garantir confiabilidade.
-4. Os indicadores serão classificados em **positivo** (quanto maior, melhor, como áreas verdes) ou **negativo** (quanto maior, pior, como criminalidade).
+4. O usuário poderá comparar dois bairros e indicar um local de interesse para que sejam comparadas as distâncias entre as localidades.
 
 ### Perfis de Usuários
 
@@ -40,12 +40,11 @@ Estudantes.
 
 ### Casos de Uso
 
-UC 01: Comparar bairros
-	Ator: Usuário de qualquer perfil
-	Fluxo:
+- UC 01: Comparar bairros
+	- Ator: Usuário de qualquer perfil
+	- Fluxo:
 		1. Usuário acessa a página principal.
 		2. Usuário seleciona no mapa os bairros que deseja comparar.
 		3. O sistema busca as informações e indicadores.
 		4. O sistema exibe uma tela de comparação entre os bairros.
 		5. Se houver falta de dados, exibe a mensagem "informação indisponível".
-
